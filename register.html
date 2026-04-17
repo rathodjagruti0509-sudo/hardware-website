@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Express | Register</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="register">
+    <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="index.html">FoodExpress</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="main-nav">
+        <ul>
+          <li><a class="nav-home" href="index.html">Home</a></li>
+          <li><a class="nav-login" href="login.html">Login</a></li>
+          <li><a class="nav-register" href="register.html">Register</a></li>
+          <li><a class="nav-menu" href="menu.html">Menu</a></li>
+          <li><a class="nav-offers" href="offers.html">Offers</a></li>
+          <li><a class="nav-about" href="about.html">About</a></li>
+          <li><a class="nav-contact" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="form-wrap">
+      <h2>Create Account</h2>
+      <p>Join FoodExpress and start enjoying tasty meals.</p>
+      <form action="login.html">
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input id="name" type="text" placeholder="Your name" required />
+        </div>
+        <div class="field">
+          <label for="reg-email">Email</label>
+          <input id="reg-email" type="email" placeholder="you@example.com" required />
+        </div>
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="tel" placeholder="Enter phone number" required />
+        </div>
+        <div class="field">
+          <label for="reg-password">Password</label>
+          <input id="reg-password" type="password" placeholder="Create password" required />
+        </div>
+        <button class="btn btn-primary full" type="submit">Register</button>
+      </form>
+      <p class="form-note">Already have an account? <a href="login.html">Login</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>FoodExpress - Your account, your favorite taste.</p>
+  </footer>
+</body>
+</html>
+

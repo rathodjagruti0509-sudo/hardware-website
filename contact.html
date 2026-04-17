@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Express | Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="contact">
+    <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="index.html">FoodExpress</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="main-nav">
+        <ul>
+          <li><a class="nav-home" href="index.html">Home</a></li>
+          <li><a class="nav-login" href="login.html">Login</a></li>
+          <li><a class="nav-register" href="register.html">Register</a></li>
+          <li><a class="nav-menu" href="menu.html">Menu</a></li>
+          <li><a class="nav-offers" href="offers.html">Offers</a></li>
+          <li><a class="nav-about" href="about.html">About</a></li>
+          <li><a class="nav-contact" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="form-wrap">
+      <h2>Contact Us</h2>
+      <p>Have a query or feedback? Send us a message.</p>
+      <form>
+        <div class="field">
+          <label for="cname">Name</label>
+          <input id="cname" type="text" placeholder="Your name" required />
+        </div>
+        <div class="field">
+          <label for="cemail">Email</label>
+          <input id="cemail" type="email" placeholder="you@example.com" required />
+        </div>
+        <div class="field">
+          <label for="topic">Topic</label>
+          <select id="topic">
+            <option>General Inquiry</option>
+            <option>Order Help</option>
+            <option>Partnership</option>
+            <option>Feedback</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="msg">Message</label>
+          <textarea id="msg" placeholder="Write your message"></textarea>
+        </div>
+        <button class="btn btn-primary full" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>FoodExpress - We are here to help you anytime.</p>
+  </footer>
+</body>
+</html>
+
